@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from recolheInfo import entrada_dados
 
 receiver_email = input("Digite o email do cliente: ")
-sender_email = "contato@infopublicpb.com.br"
-senha = "#info8116*"
+sender_email = "**secret**"
+senha = "**secret**"
 srvSMTP = "smtp.gmail.com"
 port = 465
 
